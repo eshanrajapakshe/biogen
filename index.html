@@ -1,324 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boigen</title>
 
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boigen</title>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body>
-    <header>
-      <div class="main-header">
-        <div class="container">
-          <div class="main-header-inner">
-            <img src="./assets/images/logo/logo-header.png" alt="biogen logo" />
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
 
-            <div class="header-contacts">
-              <div class="header-phone">
-                <h6 lang="en">Phone Number</h6>
-                <h6 lang="lk">දුරකථන අංකය</h6>
-                <h5><a href="tel:+">+123 456 7890</a></h5>
-              </div>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-              <div class="header-email">
-                <h6 lang="en">Email Address</h6>
-                <h6 lang="lk">විද්යුත් තැපැල් ලිපිනය</h6>
-                <h5><a href="mailto:">support@gmail.com</a></h5>
-              </div>
-            </div>
-
-            <div class="header-social-contacts">
-              <div class="social-media-item">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-facebook"></i>
-                </a>
-              </div>
-              <div class="social-media-item">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-twitter"></i>
-                </a>
-              </div>
-              <div class="social-media-item">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-youtube"></i>
-                </a>
-              </div>
-              <div class="social-media-item">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="language-switcher">
-              <div class="lngg">
-                <select onChange="" class="selectpicker" data-width="fit">
-                  <a href="#en">
-                    <option value="en" data-content='<span class="flag-icon flag-icon-gb"></span> English'>English</option>
-                  </a>
-                  <a href="#lk">
-                    <option value="lk" data-content='<span class="flag-icon flag-icon-lk"></span> සිංහල'>සිංහල</option>
-                  </a>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="secondary-header">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="productsMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
-                    <ul class="dropdown-menu" aria-labelledby="productsMenuLink">
-                      <li><a class="dropdown-item" href="#">Product 01</a></li>
-                      <li><a class="dropdown-item" href="#">Product 02</a></li>
-                      <li><a class="dropdown-item" href="#">Product 03</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Empowerment</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <div class="hero-container">
-        <div id="overlay"></div>
-        <div class="container">
-          <div class="hero-text">
-            <h4>Food Is The Element To Build Health</h4>
-            <h1>Build Health with Food</h1>
-            <h4>Organic Fertilizer</h4>
-
-            <div class="hero-actions">
-              <a class="btn b-btn-primary" href="#" role="button">See Our Products</a>
-              <a class="btn b-btn-secondary" href="#" role="button">Our Support</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <section class="section-common">
+<body>
+  <header>
+    <div class="main-header">
       <div class="container">
-        <div class="about-us-container">
-          <div class="about-us-image">
-            <img src="./assets/images/fertilizer-granules-bag.jpg" alt="" />
-          </div>
-          <div class="about-us-info">
-            <div class="section-title-wrapper">
-              <h6 class="section-mini-title">Our Introduction</h6>
-              <h2 class="section-title">Welcome to Biogen</h2>
+        <div class="main-header-inner">
+          <img src="./assets/images/logo/logo-header.png" alt="biogen logo" />
+
+          <div class="header-contacts">
+            <div class="header-phone">
+              <h6 lang="en">Phone Number</h6>
+              <h6 lang="lk">දුරකථන අංකය</h6>
+              <h5><a href="tel:+">+123 456 7890</a></h5>
             </div>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam, earum dolor dolorem molestias sint vero ipsum quisquam consequatur
-              accusamus, corporis quae, dolores hic.
-            </p>
+            <div class="header-email">
+              <h6 lang="en">Email Address</h6>
+              <h6 lang="lk">විද්යුත් තැපැල් ලිපිනය</h6>
+              <h5><a href="mailto:">support@gmail.com</a></h5>
+            </div>
+          </div>
 
-            <div class="about-us-points">
-              <ul>
-                <li><i class="fa-solid fa-circle-check"></i> 35 Organic Products</li>
-                <li><i class="fa-solid fa-circle-check"></i> Support Farmers</li>
-                <li><i class="fa-solid fa-circle-check"></i> Free Islandwide Service</li>
-                <li><i class="fa-solid fa-circle-check"></i> Eco Friendly</li>
+          <div class="header-social-contacts">
+            <div class="social-media-item">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <div class="social-media-item">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+            <div class="social-media-item">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <div class="social-media-item">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="language-switcher">
+            <div class="lngg">
+              <select onChange="" class="selectpicker" data-width="fit">
+                <a href="#en">
+                  <option value="en" data-content='<span class="flag-icon flag-icon-gb"></span> English'>English
+                  </option>
+                </a>
+                <a href="#lk">
+                  <option value="lk" data-content='<span class="flag-icon flag-icon-lk"></span> සිංහල'>සිංහල</option>
+                </a>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="secondary-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="productsMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                  <ul class="dropdown-menu" aria-labelledby="productsMenuLink">
+                    <li><a class="dropdown-item" href="#">Product 01</a></li>
+                    <li><a class="dropdown-item" href="#">Product 02</a></li>
+                    <li><a class="dropdown-item" href="#">Product 03</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Empowerment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
               </ul>
             </div>
-
-            <a class="btn b-btn-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
           </div>
-        </div>
-
-        <div class="certified-wrapper">
-          <div class="certified-item">
-            <img src="./assets/images/certified/eco-friendly-badge.jpg" alt="" />
-          </div>
-          <div class="certified-item">
-            <img src="./assets/images/certified/healthy-badge.jpg" alt="" />
-          </div>
-          <div class="certified-item">
-            <img src="./assets/images/certified/original-badge.jpg" alt="" />
-          </div>
-        </div>
+        </nav>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <section class="section-common background-01">
+  <main>
+    <div class="hero-container">
+      <div id="overlay"></div>
       <div class="container">
-        <div class="section-title-wrapper text-center">
-          <h6 class="section-mini-title">Our Products</h6>
-          <h2 class="section-title">What We Offers</h2>
-        </div>
+        <div class="hero-text">
+          <h4>Food Is The Element To Build Health</h4>
+          <h1>Build Health with Food</h1>
+          <h4>Organic Fertilizer</h4>
 
-        <div class="products-container">
-          <div class="product-item">
-            <div class="product-image">
-              <img src="./assets/images/products/02.webp" alt="" />
-            </div>
-            <div class="product-info">
-              <h4>Organic Fertilizer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam.</p>
-              <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-
-          <div class="product-item">
-            <div class="product-image">
-              <img src="./assets/images/products/01.webp" alt="" />
-            </div>
-            <div class="product-info">
-              <h4>Organic Fertilizer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam.</p>
-              <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-
-          <div class="product-item">
-            <div class="product-image">
-              <img src="./assets/images/products/02.webp" alt="" />
-            </div>
-            <div class="product-info">
-              <h4>Organic Fertilizer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam.</p>
-              <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-
-          <div class="product-item">
-            <div class="product-image">
-              <img src="./assets/images/products/01.webp" alt="" />
-            </div>
-            <div class="product-info">
-              <h4>Organic Fertilizer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam.</p>
-              <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-
-          <div class="product-item">
-            <div class="product-image">
-              <img src="./assets/images/products/02.webp" alt="" />
-            </div>
-            <div class="product-info">
-              <h4>Organic Fertilizer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam.</p>
-              <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-
-          <div class="product-item">
-            <div class="product-image">
-              <img src="./assets/images/products/01.webp" alt="" />
-            </div>
-            <div class="product-info">
-              <h4>Organic Fertilizer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam.</p>
-              <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-
-          <div class="product-item">
-            <div class="product-image">
-              <img src="./assets/images/products/02.webp" alt="" />
-            </div>
-            <div class="product-info">
-              <h4>Organic Fertilizer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam.</p>
-              <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-
-          <div class="product-item">
-            <div class="product-image">
-              <img src="./assets/images/products/01.webp" alt="" />
-            </div>
-            <div class="product-info">
-              <h4>Organic Fertilizer</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem nam.</p>
-              <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
+          <div class="hero-actions">
+            <a class="btn b-btn-primary" href="#" role="button">See Our Products</a>
+            <a class="btn b-btn-secondary" href="#" role="button">Our Support</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </main>
 
-    <section class="section-common organic-section">
-      <div class="organic-text">
-        <h1>ORGANIC</h1>
-        <h2>Grow organic and live healthy</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam incidunt praesentium obcaecati fugiat nemo non inventore porro, ab fuga, quae placeat deserunt voluptate nihil labore
-          perferendis architecto? Culpa, delectus.
+  <section class="section-common">
+    <div class="container">
+      <div class="about-us-container">
+        <div class="about-us-image">
+          <img src="./assets/images/fertilizer-granules-bag.jpg" alt="" />
+        </div>
+        <div class="about-us-info">
+          <div class="section-title-wrapper">
+            <h6 class="section-mini-title">Our Introduction</h6>
+            <h2 class="section-title">Welcome to Biogen</h2>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+            nam, earum dolor dolorem molestias sint vero ipsum quisquam consequatur
+            accusamus, corporis quae, dolores hic.
+          </p>
+
+          <div class="about-us-points">
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i> 35 Organic Products</li>
+              <li><i class="fa-solid fa-circle-check"></i> Support Farmers</li>
+              <li><i class="fa-solid fa-circle-check"></i> Free Islandwide Service</li>
+              <li><i class="fa-solid fa-circle-check"></i> Eco Friendly</li>
+            </ul>
+          </div>
+
+          <a class="btn b-btn-primary" href="#" role="button">Learn More <i
+              class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+      </div>
+
+      <div class="certified-wrapper">
+        <div class="certified-item">
+          <img src="./assets/images/certified/eco-friendly-badge.jpg" alt="" />
+        </div>
+        <div class="certified-item">
+          <img src="./assets/images/certified/healthy-badge.jpg" alt="" />
+        </div>
+        <div class="certified-item">
+          <img src="./assets/images/certified/original-badge.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-common background-01">
+    <div class="container">
+      <div class="section-title-wrapper text-center">
+        <h6 class="section-mini-title">Our Products</h6>
+        <h2 class="section-title">What We Offers</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto unde sed nesciunt non soluta libero optio
+          explicabo voluptatem ut adipisci, perferendis voluptatibus ad cumque esse? Iusto aliquid voluptate ullam nam!
         </p>
       </div>
-    </section>
 
-    <section class="section-common background-02">
-      <div class="container">
-        <div class="section-title-wrapper text-center">
-          <h6 class="section-mini-title">Community Support</h6>
-          <h2 class="section-title">Farmer Empowerment</h2>
+      <div class="section-subtitle-wrapper">
+        <h2 class="section-subtitle">Carbonic Fertilizer</h2>
+      </div>
+
+      <div class="products-container">
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./assets/images/products/02.webp" alt="" />
+          </div>
+          <div class="product-info">
+            <h4>Organic Fertilizer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+            <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i
+                class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./assets/images/products/01.webp" alt="" />
+          </div>
+          <div class="product-info">
+            <h4>Organic Fertilizer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+            <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i
+                class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./assets/images/products/02.webp" alt="" />
+          </div>
+          <div class="product-info">
+            <h4>Organic Fertilizer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+            <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i
+                class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./assets/images/products/01.webp" alt="" />
+          </div>
+          <div class="product-info">
+            <h4>Organic Fertilizer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+            <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i
+                class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./assets/images/products/02.webp" alt="" />
+          </div>
+          <div class="product-info">
+            <h4>Organic Fertilizer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+            <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i
+                class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./assets/images/products/01.webp" alt="" />
+          </div>
+          <div class="product-info">
+            <h4>Organic Fertilizer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+            <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i
+                class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./assets/images/products/02.webp" alt="" />
+          </div>
+          <div class="product-info">
+            <h4>Organic Fertilizer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+            <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i
+                class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-image">
+            <img src="./assets/images/products/01.webp" alt="" />
+          </div>
+          <div class="product-info">
+            <h4>Organic Fertilizer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+            <a class="btn b-btn-text color-primary" href="#" role="button">Learn More <i
+                class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
         </div>
       </div>
-    </section>
 
-    <section class="section-common background-03">
-      <div class="container">
-        <div class="section-title-wrapper text-center">
-          <h6 class="section-mini-title text-white">Guidelines</h6>
-          <h2 class="section-title">Usage Guide</h2>
+      <div class="section-subtitle-wrapper">
+        <h2 class="section-subtitle">Seeds</h2>
+      </div>
+
+      <div class="seeds-wrapper">
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/red-tomatoes-branch.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Tomato Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/chilli.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Chilli Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/brinjal.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Brinjal Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/Bitter-gourd.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Bitter Gourd Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/Yardlong-bean.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Yardlong Bean Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/luffa.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Luffa Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/ladies-fingers.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Ladies Fingers Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/green-beans.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Bean Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/cabbage.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Cabbage Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/pumpkin.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Pumpkin Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/raddish.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Raddish Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/winged-bean.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Winged Bean Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/snake-gourd.webp" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Snake Gourd Seeds
+          </div>
+        </div>
+
+        <div class="seed-item">
+          <div class="seed-item-image">
+            <img src="./assets/images/products/seeds/Sweet-Banana-Pepper.jpg" alt="" />
+          </div>
+          <div class="seed-item-name">
+            Capsicum Seeds
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-common organic-section">
+    <div class="organic-text">
+      <h1>ORGANIC</h1>
+      <h2>Grow organic and live healthy</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam incidunt praesentium obcaecati fugiat nemo non
+        inventore porro, ab fuga, quae placeat deserunt voluptate nihil labore
+        perferendis architecto? Culpa, delectus.
+      </p>
+    </div>
+
+    <div class="home-garden-title">
+      <h4>Easy to use Home Gardening Kit</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam incidunt praesentium.</p>
+    </div>
+
+    <div class="home-garden-kit-wrapper">
+      <div class="home-garden-kit-item">
+        <div class="home-kit-title">
+          <h4>Gardening Kit</h4>
+        </div>
+        <div class="home-kit-image">
+          <img src="./assets/images/products/home-garden-kit/Gardening-Kit.png" alt="" />
+        </div>
+        <div class="home-kit-description">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam incidunt praesentium obcaecati fugiat nemo
+            non
+            inventore porro, ab fuga, quae placeat deserunt voluptate nihil labore
+            perferendis architecto? Culpa, delectus.
+          </p>
         </div>
       </div>
-    </section>
 
-    <script src="./assets/js/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/bootstrap-select.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-  </body>
+      <div class="home-garden-kit-item">
+        <div class="home-kit-title">
+          <h4>Ornamental Flower Planting Kit</h4>
+        </div>
+        <div class="home-kit-image">
+          <img src="./assets/images/products/home-garden-kit/Gardening-Kit.png" alt="" />
+        </div>
+        <div class="home-kit-description">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam incidunt praesentium obcaecati fugiat nemo
+            non
+            inventore porro, ab fuga, quae placeat deserunt voluptate nihil labore
+            perferendis architecto? Culpa, delectus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="background-02">
+    <div class="service-container">
+      <div class="section-title-wrapper">
+        <h6 class="section-mini-title">Our Support</h6>
+        <h2 class="section-title">Community Empowerment</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque iure, repudiandae necessitatibus inventore
+          facere tenetur temporibus repellendus quo corrupti in eius, pariatur deleniti quidem velit cumque iste
+          dignissimos ratione facilis!</p>
+      </div>
+
+      <div class="services-wrapper">
+        <div class="service-item item-full">
+          <div class="service-image">
+            <img src="./assets/images/service/farmer-planting-rices-field.jpg" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>Get Expert Advice</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipiem
+              nam. amet consectetur adipisicing elit. Neque iureibus repellendus quo corrupti in eius.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam. amet consectetur adipisicing elit. Neque iure, repudiandae necessitatibus inventore
+              facere tenetur temporibus repellendus quo corrupti in eius.</p>
+          </div>
+        </div>
+
+        <div class="service-item si-bg">
+          <div class="service-info">
+            <h4>Infomation Service</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              psum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-image">
+            <img src="./assets/images/service/financial-support.png" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>Loans and Financial Support</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab non atque. Facere exer t amet
+              consectetur adipisicing elit. Suscipit ab non atque. Facere exercitationem rem
+              nam.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-common background-03">
+    <div class="container">
+      <div class="section-title-wrapper text-center">
+        <h6 class="section-mini-title text-white">Guidelines</h6>
+        <h2 class="section-title">Usage Guide</h2>
+      </div>
+    </div>
+  </section>
+
+  <script src="./assets/js/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/bootstrap-select.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
 </html>
