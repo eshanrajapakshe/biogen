@@ -66,7 +66,7 @@ body {
 }
 
 .nav-shadow {
-  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  box-shadow: 0 4px 6px 0 rgb(32 33 36 / 28%);
 }
 
 .nav-height {
@@ -691,10 +691,6 @@ body {
 
 .use-benefits {
   margin-top: 4rem;
-}
-
-.use-benefits {
-  margin-top: 4rem;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -794,4 +790,120 @@ body {
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
   fill: #98fb98;
+}
+
+.home-contact-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.home-contact-item {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.home-contact-item img {
+  width: 42px;
+}
+
+.home-contact-item h5 {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666666;
+}
+
+.h-contact-info {
+  font-weight: 500;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #043927;
+}
+
+.h-contact-info:hover {
+  text-decoration: underline;
+  color: var(--b-primary);
+}
+
+.h-message-wrapper {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+footer {
+  background-color: #171717;
+  color: #ffffff;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 40% auto auto auto;
+  column-gap: 3rem;
+}
+
+.footer-item .footer-logo {
+  max-width: 200px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.f-social-media-item a i {
+  font-size: 1rem;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.f-social-media-item {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 3px;
+}
+
+.footer-item p {
+  font-size: 14px;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 1rem;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #111111;
+  color: #d3d3d3;
+}
+
+.footer-sec-title {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.footer-links a {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #ffffff;
 }
