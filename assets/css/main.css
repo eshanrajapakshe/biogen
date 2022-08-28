@@ -34,7 +34,11 @@
 }
 
 .background-03 {
-  background-image: linear-gradient(117deg, rgba(123, 216, 96, 1) 39.2%, rgba(255, 255, 255, 1) 156.2%);
+  background-image: linear-gradient(
+    117deg,
+    rgba(123, 216, 96, 1) 39.2%,
+    rgba(255, 255, 255, 1) 156.2%
+  );
 }
 
 .color-primary {
@@ -53,9 +57,12 @@ body {
   width: 100%;
   z-index: 10000;
   will-change: transform;
-  transition: background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
-  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1), background 0.3s;
-  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1), background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  transition: background 0.3s,
+    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s;
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transform: translateY(0);
   -webkit-transform: translateY(0);
 }
@@ -239,7 +246,8 @@ body {
   border-radius: 6px;
   padding: 10px 20px;
   font-weight: 500;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .b-btn-primary:hover {
@@ -390,7 +398,7 @@ body {
 .product-item .product-info h4 {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -906,4 +914,57 @@ footer {
 .footer-links a:hover {
   text-decoration: underline;
   color: #ffffff;
+}
+
+.benefits-points {
+  margin-top: 2rem;
+}
+
+.benefits-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.benefits-item:last-child {
+  margin-bottom: 0;
+}
+
+.benefits-item i {
+  color: #006400;
+  position: relative;
+  bottom: -3px;
+}
+
+.benefit-image {
+  width: 55%;
+}
+
+.benefit-desc {
+  width: 45%;
+}
+
+.benefit-image img {
+  width: 100%;
+}
+
+.service-e-learning .service-info {
+  padding: 5rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+  background-color: #004c20;
+}
+
+.service-e-learning .service-info p {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-e-learning {
+  position: relative;
+  grid-column: span 2;
 }
