@@ -721,9 +721,20 @@ body {
   margin: 1.5rem 0;
 }
 
+.see-more-products img {
+  height: 300px;
+  width: 50%;
+  object-fit: cover;
+}
+
 .see-more-products {
-  text-align: center;
   margin: 1rem 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
 .owl-carousel {
@@ -1109,12 +1120,23 @@ footer {
   gap: 4rem;
 }
 
-.cultivate-image {
+.cultivate-image,
+.product-for-crops {
   width: 50%;
+}
+
+.product-for-crops{
+  padding: 1rem;
 }
 
 .cultivate-image img {
   width: 100%;
   max-height: 350px;
   object-fit: cover;
+}
+
+.product-for-crops h6 {
+  color: #777777;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
