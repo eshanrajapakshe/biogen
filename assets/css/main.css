@@ -236,7 +236,15 @@ body {
 .hero-text {
   color: #ffffff;
   z-index: 3;
-  width: 50%;
+  width: 70%;
+}
+
+.service-info ul > li {
+  margin-bottom: 2rem;
+}
+
+.use-benefits-wrapper {
+  margin-top: 6rem;
 }
 
 .hero-text h1 {
@@ -370,7 +378,7 @@ body {
   position: absolute;
   top: 10%;
   left: -30px;
-  height: 96%;
+  height: 74%;
   width: 100px;
   background-color: #32cd32;
   z-index: -1;
@@ -704,13 +712,13 @@ body {
 .use-benefits {
   margin-top: 4rem;
   display: flex;
-  align-items: center;
-  gap: 2rem;
+  justify-content: space-between;
 }
 
 .benefit-desc h4 {
   font-weight: 500;
   font-size: 26px;
+  color: #004800;
 }
 
 .benefit-desc h4 > span {
@@ -932,7 +940,7 @@ footer {
 }
 
 .benefits-points {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .benefits-item {
@@ -940,6 +948,7 @@ footer {
   align-items: baseline;
   gap: 1rem;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .benefits-item:last-child {
@@ -954,10 +963,11 @@ footer {
 
 .benefit-image {
   width: 55%;
+  margin: auto;
 }
 
 .benefit-desc {
-  width: 45%;
+  width: 47%;
 }
 
 .benefit-image img {
@@ -977,6 +987,14 @@ footer {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.about-us-info h5 {
+  color: #0a850f;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 2rem 0;
 }
 
 .service-e-learning {
@@ -1125,7 +1143,7 @@ footer {
   width: 50%;
 }
 
-.product-for-crops{
+.product-for-crops {
   padding: 1rem;
 }
 
