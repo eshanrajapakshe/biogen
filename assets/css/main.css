@@ -1158,3 +1158,74 @@ footer {
   margin-bottom: 1.5rem;
   margin-top: 1rem;
 }
+
+.about-us-header {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.about-us-header img {
+  width: 100%;
+  margin-top: 2rem;
+  height: 400px;
+  object-fit: cover;
+}
+
+.about-us-header h5 {
+  margin: 2rem 0 1rem;
+  color: var(--b-primary);
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.about-content {
+  max-width: 700px;
+  margin: auto;
+  text-align: justify;
+}
+
+.our-val-item h6 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.our-values {
+  display: flex;
+  margin-top: 2rem;
+  gap: 5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.about-us-contact-sec {
+  background-color: #fff5e6;
+}
+
+.our-val-item img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.about-pitch {
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+  margin: 5rem auto;
+  color: var(--b-primary);
+  max-width: 700px;
+  background-color: #f5f5dc;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.about-pitch h4 {
+  font-size: 30px;
+}
+
+.about-us-main-container .section-title-wrapper {
+  margin-bottom: 4rem;
+}
+
+.our-val-item p {
+  color: #607d8b;
+}
