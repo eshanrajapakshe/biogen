@@ -120,13 +120,15 @@ $(function () {
   }
 
   function doDotsCalculations(el) {
-    const height = el.height();
-    const { top, left } = el.position();
-    const res = height + top + 20;
+    try {
+      const height = el.height();
+      const { top, left } = el.position();
+      const res = height + top + 20;
 
-    $(".owl-carousel .owl-dots").css({
-      top: `${res}px`,
-      left: `${left}px`,
-    });
+      $(".owl-carousel .owl-dots").css({
+        top: `${res}px`,
+        left: `${left}px`,
+      });
+    } catch (error) {}
   }
 });

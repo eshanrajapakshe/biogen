@@ -250,7 +250,6 @@ body {
 .use-benefits-wrapper {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  display: flex;
 }
 
 .hero-text h1 {
@@ -724,7 +723,6 @@ body {
   margin-top: 4rem;
   display: flex;
   justify-content: space-between;
-  width: 45%;
 }
 
 .benefit-desc h4 {
@@ -1184,6 +1182,7 @@ footer {
   margin-top: 2rem;
   height: 400px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .about-us-header h5 {
@@ -1195,7 +1194,6 @@ footer {
 }
 
 .about-content {
-  max-width: 700px;
   margin: auto;
   text-align: justify;
 }
@@ -1369,4 +1367,65 @@ figure.effect-zoe:hover i {
 figure.effect-zoe:hover h2 {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
+}
+
+.ub-table-header,
+.ub-table-body {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.ub-table-header-item {
+  padding: 6px 16px;
+  background-color: darkgreen;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.ub-table-body-item {
+  padding: 6px 16px;
+  color: #222222;
+  font-weight: 500;
+}
+
+.usage-basic-table {
+  margin-bottom: 2rem;
+}
+
+.ub-table-header-item:first-child,
+.ub-table-body-item:first-child {
+  width: 300px;
+}
+
+.ub-table-header-item:nth-child(2),
+.ub-table-body-item:nth-child(2) {
+  width: 600px;
+}
+
+.ub-table-body-item:first-child,
+.ub-table-body-item:nth-child(2) {
+  background-color: #e0edc4;
+  border-radius: 5px;
+}
+
+.ub-table-body,
+.ub-table-header {
+  margin-bottom: 4px;
+}
+
+.usage-to-corps-section {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.usage-to-corps-section a {
+  margin-top: 2rem;
+}
+
+.ub-table-body-item img {
+  max-width: 25px;
+  margin-right: 10px;
+  max-height: 50px;
 }
