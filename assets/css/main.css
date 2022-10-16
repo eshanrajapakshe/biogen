@@ -471,19 +471,10 @@ body {
 .organic-text h1 {
   font-family: "Lobster Two", cursive;
   font-weight: 700;
-  text-decoration: underline;
   font-style: italic;
-  font-size: 4rem;
-  margin-bottom: 3rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
   color: var(--b-primary);
-}
-
-.organic-text h2 {
-  font-weight: 500;
-  font-family: serif;
-  margin-bottom: 1.5rem;
-  color: #8b4513;
-  text-transform: uppercase;
 }
 
 .organic-text p {
