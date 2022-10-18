@@ -727,7 +727,7 @@ body {
 
 .benefit-desc h4 {
   font-weight: 500;
-  font-size: 26px;
+  font-size: 36px;
   color: #004800;
 }
 
@@ -972,7 +972,7 @@ footer {
 }
 
 .benefit-image {
-  width: 55%;
+  width: 80%;
   margin: auto;
 }
 
@@ -982,6 +982,10 @@ footer {
 
 .benefit-image img {
   width: 100%;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .service-e-learning .service-info {
@@ -1428,4 +1432,115 @@ figure.effect-zoe:hover h2 {
   max-width: 25px;
   margin-right: 10px;
   max-height: 50px;
+}
+
+.home-kit-description {
+  display: inline-block;
+  text-align: start;
+  margin-top: 1rem;
+}
+
+.home-kit-item {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.home-kit-item span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: darkgreen;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.seed-instructions {
+  background-color: #e0edc4;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 2rem;
+}
+
+.seed-instructions i {
+  font-size: 3rem;
+  color: darkgreen;
+}
+
+.seed-instructions p {
+  margin-bottom: 0;
+}
+
+.use-benefits-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.use-benefits-section::before {
+  content: "";
+  width: 55vw;
+  height: 55vw;
+  border-radius: 50%;
+  background: #dce35b;
+  background: -webkit-linear-gradient(to right, #45b649, #dce35b);
+  background: linear-gradient(to right, #45b649, #dce35b);
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -100px;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.use-benefits-section::after {
+  content: "";
+  width: 28vw;
+  height: 28vw;
+  border-radius: 50%;
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  right: -100px;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.contactsec-home {
+  background-color: #f0faf2;
+}
+
+.seeds-usage-2-wrapper {
+  margin: 3rem 0;
+}
+
+.seeds-usage-2-wrapper h4 {
+  margin-bottom: 1rem;
+}
+
+.seeds-usage-2-wrapper li {
+  margin-bottom: 0.7rem;
+}
+
+.seeds-usage-2-wrapper li::before {
+  content: "\2022";
+  color: #006400;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 18px;
+}
+
+.contact-us-header {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.contact-page-wrapper {
+  text-align: center;
+  margin-bottom: 3rem;
 }
