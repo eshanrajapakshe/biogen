@@ -3,6 +3,9 @@ var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
 
+const params = new URLSearchParams(document.location.search);
+const lang = params.get("lang");
+
 $(function () {
   if (lastScrollTop < 10) {
     $(".nav-header").addClass("nav-top");
@@ -44,6 +47,33 @@ function hasScrolled() {
 
 $(function () {
   $(".selectpicker").selectpicker();
+  const selectedLang = localStorage.getItem("lang");
+
+  if (lang === null) {
+    if (selectedLang === null) {
+      const newurl =
+        window.location.protocol +
+        "//" +
+        window.location.host +
+        window.location.pathname +
+        "?lang=en";
+      window.history.pushState({ path: newurl }, "", newurl);
+    } else {
+      const newurl =
+        window.location.protocol +
+        "//" +
+        window.location.host +
+        window.location.pathname +
+        `?lang=${selectedLang}`;
+      window.history.pushState({ path: newurl }, "", newurl);
+    }
+  }
+
+  if (selectedLang === null) {
+    localStorage.setItem("lang", "en");
+  }
+
+  $(".selectpicker").selectpicker("val", selectedLang || "en");
 
   // LANGUAGE
   function allagiglossas(selectedLanguage) {
@@ -70,11 +100,20 @@ $(function () {
     }
   }
 
-  allagiglossas("en");
+  allagiglossas(selectedLang || "en");
 
   $(".selectpicker").on("changed.bs.select", function (e) {
     const selected = $(e.currentTarget).val();
+    localStorage.setItem("lang", selected);
     allagiglossas(selected);
+
+    const newurl =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      window.location.pathname +
+      `?lang=${selected}`;
+    window.history.pushState({ path: newurl }, "", newurl);
   });
 
   $(".owl-carousel").on("initialized.owl.carousel", () => {

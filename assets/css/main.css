@@ -1315,7 +1315,7 @@ figure.effect-zoe figcaption {
   top: auto;
   bottom: 0;
   padding: 0.8rem;
-  height: 4rem;
+  height: auto;
   background: var(--b-primary);
   color: #ffffff;
   -webkit-transition: -webkit-transform 0.35s;
@@ -1345,6 +1345,7 @@ figure.effect-zoe h2 {
   display: inline-block;
   font-size: 0.9rem;
   line-height: 18px;
+  margin-bottom: 0;
 }
 
 figure.effect-zoe:hover p.description {
@@ -1543,4 +1544,20 @@ figure.effect-zoe:hover h2 {
 .contact-page-wrapper {
   text-align: center;
   margin-bottom: 3rem;
+}
+
+.cultivate-table-middle-p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.cultivate-table-middle-li {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.about-button-wrapper{
+  display: inline-block;
 }
