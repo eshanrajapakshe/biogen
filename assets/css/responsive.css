@@ -1,0 +1,315 @@
+@media only screen and (max-width: 990px) {
+  .header-contacts {
+    gap: 2rem;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about-us-image,
+  .about-us-info {
+    width: 100%;
+  }
+
+  .product-item {
+    width: 49%;
+  }
+
+  .seed-item {
+    width: 32.5%;
+    margin-bottom: 0.4rem;
+  }
+
+  .home-garden-kit-wrapper {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-container {
+    flex-direction: column;
+  }
+
+  .service-container .section-title-wrapper {
+    width: 100%;
+  }
+
+  .services-wrapper {
+    width: 100%;
+  }
+
+  .usage-guide-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fertilizer-guide {
+    margin-bottom: 1rem;
+  }
+
+  .fertilizer-guide,
+  .seeds-guide {
+    width: 100%;
+  }
+
+  .harvest-guide-item {
+    width: 32.3%;
+    margin-bottom: 1rem;
+  }
+
+  .harvest-image img {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-contacts {
+    display: none;
+  }
+
+  .section-subtitle-wrapper {
+    margin-top: 2rem;
+  }
+
+  .see-more-products {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .see-more-products img {
+    width: 100%;
+  }
+
+  .product-for-crops {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .home-kit-image img {
+    height: auto;
+    width: 100%;
+  }
+
+  .footer-wrapper {
+    grid-template-columns: auto;
+    row-gap: 2rem;
+  }
+
+  .footer-links a {
+    margin: 0.8rem 0;
+  }
+
+  .hero-container {
+    height: 50vh;
+  }
+
+  .home-contact-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-contact-wrapper {
+    margin-top: 3rem;
+    gap: 2rem;
+  }
+
+  .home-contact-item {
+    width: 100%;
+  }
+
+  .h-contact-info {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .section-mini-title {
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .section-common {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .product-item img {
+    max-height: 100px;
+  }
+
+  .product-item {
+    padding: 1rem;
+  }
+
+  .seeds-wrapper {
+    justify-content: space-between;
+  }
+
+  .seed-item {
+    width: 49%;
+  }
+
+  .home-garden-kit-item {
+    width: 95%;
+  }
+
+  .home-garden-title {
+    display: none;
+  }
+
+  .service-container .section-title-wrapper,
+  .service-item {
+    padding: 2rem;
+  }
+
+  .benefit-desc h4 {
+    font-size: 24px;
+  }
+
+  .footer-item .footer-logo {
+    max-width: 150px;
+  }
+
+  .footer-item {
+    text-align: center;
+  }
+
+  .seeds-guide,
+  .fertilizer-guide {
+    padding: 2rem 1rem;
+  }
+
+  .product-item {
+    width: 100%;
+  }
+
+  .product-item .product-info h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .products-container,
+  .seeds-wrapper {
+    margin-top: 1rem;
+  }
+
+  .usage-guide-wrapper {
+    margin-top: 2rem;
+  }
+
+  .home-contact-item img {
+    width: 32px;
+  }
+
+  .home-contact-item h5 {
+    margin-top: 1rem;
+  }
+
+  .about-button-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .home-kit-image img {
+    width: 80%;
+  }
+
+  .home-kit-title h4,
+  .guide-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .guide-item h5 {
+    font-size: 14px;
+  }
+
+  .about-pitch {
+    margin: 3rem auto;
+  }
+
+  .our-values {
+    gap: 2rem;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ub-table-body-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+    gap: 8px;
+  }
+
+  .ub-table-body-item img {
+    max-height: max-content;
+  }
+
+  .harvest-image img {
+    height: 120px;
+  }
+
+  .harvest-name h4 {
+    font-size: 1rem;
+  }
+
+  .harvest-guide-wrapper {
+    margin-top: 2rem;
+  }
+
+  .cultivate-header {
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .cultivate-header .section-title-wrapper,
+  .cultivate-header .cultivate-image {
+    width: 100%;
+  }
+
+  .state-item {
+    gap: 1rem;
+    padding: 1rem 0;
+    flex-direction: column;
+  }
+
+  .stage-name {
+    min-width: 220px;
+    text-align: center;
+  }
+
+  .use-product-item {
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .use-product-items {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .use-prod-img img {
+    height: 100px;
+  }
+
+  .download-guide-pdf a {
+    margin-top: 1rem;
+  }
+
+  .cultivate-wrapper {
+    margin-top: 0rem;
+  }
+}
