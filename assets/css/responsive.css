@@ -62,6 +62,14 @@
   .harvest-image img {
     height: 200px;
   }
+
+  .contact-page-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-direct-outer {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -311,5 +319,9 @@
 
   .cultivate-wrapper {
     margin-top: 0rem;
+  }
+
+  .contact-us-item-message {
+    padding: 1rem;
   }
 }

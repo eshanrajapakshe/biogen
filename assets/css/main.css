@@ -1591,6 +1591,7 @@ figure.effect-zoe:hover h2 {
 .contact-direct-item .h-contact-info {
   margin-top: 0;
   font-weight: 600;
+  text-align: left;
 }
 
 .contact-direct-item {
@@ -1610,6 +1611,26 @@ figure.effect-zoe:hover h2 {
 .contact-us-item-message {
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  flex-grow: 1;
+}
+
+.contact-us-item-message h5 {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.contact-direct-outer h5 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.contact-direct-outer p {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.contact-direct-outer {
+  width: 45%;
 }
