@@ -194,6 +194,8 @@ body {
   font-size: 15px;
   border-radius: 30px;
   padding: 0.5rem 1rem !important;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-nav {
