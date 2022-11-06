@@ -49,25 +49,25 @@ $(function () {
   $(".selectpicker").selectpicker();
   const selectedLang = localStorage.getItem("lang");
 
-  if (lang === null) {
-    if (selectedLang === null) {
-      const newurl =
-        window.location.protocol +
-        "//" +
-        window.location.host +
-        window.location.pathname +
-        "?lang=en";
-      window.history.pushState({ path: newurl }, "", newurl);
-    } else {
-      const newurl =
-        window.location.protocol +
-        "//" +
-        window.location.host +
-        window.location.pathname +
-        `?lang=${selectedLang}`;
-      window.history.pushState({ path: newurl }, "", newurl);
-    }
-  }
+  // if (lang === null) {
+  //   if (selectedLang === null) {
+  //     const newurl =
+  //       window.location.protocol +
+  //       "//" +
+  //       window.location.host +
+  //       window.location.pathname +
+  //       "?lang=en";
+  //     window.history.pushState({ path: newurl }, "", newurl);
+  //   } else {
+  //     const newurl =
+  //       window.location.protocol +
+  //       "//" +
+  //       window.location.host +
+  //       window.location.pathname +
+  //       `?lang=${selectedLang}`;
+  //     window.history.pushState({ path: newurl }, "", newurl);
+  //   }
+  // }
 
   if (selectedLang === null) {
     localStorage.setItem("lang", "en");
@@ -107,13 +107,13 @@ $(function () {
     localStorage.setItem("lang", selected);
     allagiglossas(selected);
 
-    const newurl =
-      window.location.protocol +
-      "//" +
-      window.location.host +
-      window.location.pathname +
-      `?lang=${selected}`;
-    window.history.pushState({ path: newurl }, "", newurl);
+    // const newurl =
+    //   window.location.protocol +
+    //   "//" +
+    //   window.location.host +
+    //   window.location.pathname +
+    //   `?lang=${selected}`;
+    // window.history.pushState({ path: newurl }, "", newurl);
   });
 
   $(".owl-carousel").on("initialized.owl.carousel", () => {
