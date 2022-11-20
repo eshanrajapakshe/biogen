@@ -70,6 +70,10 @@
   .contact-direct-outer {
     width: 100%;
   }
+
+  .certifications-logo-item {
+    width: 33%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -129,6 +133,14 @@
 
   .h-contact-info {
     margin-top: 0px;
+  }
+
+  .certifications-logo-item {
+    width: 50%;
+  }
+
+  .certification-page .certifications-logo-item {
+    width: 50%;
   }
 }
 
@@ -323,5 +335,25 @@
 
   .contact-us-item-message {
     padding: 1rem;
+  }
+
+  .certifications-logo-item {
+    width: 100%;
+  }
+
+  .certifications-logo-item-inner {
+    padding: 1rem;
+  }
+
+  .certifications-logo-item img {
+    width: 40%;
+  }
+
+  .certification-page .certifications-logo-item {
+    width: 95%;
+  }
+
+  .certification-page .certifications-logo-item img {
+    width: 60%;
   }
 }
