@@ -3,6 +3,10 @@
     gap: 2rem;
   }
 
+  .owl-carousel .owl-slide {
+    background-position: right;
+  }
+
   .about-us-container {
     flex-direction: column;
     gap: 2rem;
@@ -76,6 +80,20 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .main-slider-img-01 {
+    background-image: url("../images/hero-image.jpg");
+  }
+
+  .main-slider-img-02 {
+    background-image: url("../images/hero-image-02.jpg");
+  }
+
+  .main-slider-img-03 {
+    background-image: url("../images/hero-image-03.jpg");
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .header-contacts {
     display: none;
@@ -114,7 +132,23 @@
   }
 
   .hero-container {
-    height: 50vh;
+    height: 75vh;
+  }
+
+  .main-slider-img-01 {
+    background-image: url("../images/hero-image-mobile.jpg");
+  }
+
+  .main-slider-img-02 {
+    background-image: url("../images/hero-image02--mobile.jpg");
+  }
+
+  .main-slider-img-03 {
+    background-image: url("../images/hero-image-03-mobile.jpg");
+  }
+
+  .owl-carousel .owl-slide {
+    background-position: bottom;
   }
 
   .home-contact-wrapper {
@@ -145,6 +179,14 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .hero-container {
+    height: 50vh;
+  }
+
+  .service-info ul {
+    padding-left: 0;
+  }
+
   .section-mini-title {
     font-size: 14px;
   }
